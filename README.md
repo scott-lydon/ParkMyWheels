@@ -2,7 +2,7 @@
 An iOS app that shows SF Public Motorcycle Parking on a map
 
 # Style
-- This app was coded with a highly modular style which I currently favor, because navigating the project only requires toggling the up and down arrows.  Because there are fewer distractions on a view the code is very easy to understand.  
+- This app was coded with a highly modular style which I currently favor, because navigating the project only requires toggling the up and down arrows.  Because there are fewer distractions on a view, the code is very easy to understand.  
 
 - I am 100% open to trying different ways of styling code and willing to adapt my style guide to the needs of my company. 
 
