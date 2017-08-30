@@ -19,6 +19,6 @@ Park My Wheels, also known as SFMotorcycleParking, is an iOS app that shows SF P
 # Functional Design Note
 - There are two endpoints called for parking spots, one for metered parking, and one for non-metered parking.  While handling the responses from both endpoints are similar processes.  There are two reasons I decided to keep the handlers as 2 separate lines of execution and not combine them.  
 
-  - The two different endpoints use two different sets of conventions.  For example, metered parking returns a dictionary with the latitude and longitude as values for a key titled: "location", while non metered parking has the otherwise similar key named: "Geom." 
+  - The two different endpoints use two different sets of conventions.  For example, metered parking returns a dictionary with the latitude and longitude as values for a key titled: "location", while non-metered parking has the otherwise similar key named: "Geom." 
   
   - Keeping the two functions separate helps avoid race conditions. 
