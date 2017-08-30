@@ -11,7 +11,7 @@ extension ViewController {
         
         Get.parking.metered(bottomLeft: bottomLeftStr, topRight: topRightStr) {
             parkingSpot in
-            if self.alreadyHas(parkingSpot) {
+            if self.alreadyHas(parkingSpot) || parkingSpot.latitude == nil || parkingSpot.longitude == nil {
                 return
             }
             DispatchQueue.main.async {

@@ -17,6 +17,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     var placesClient: GMSPlacesClient!
     var zoomLevel: Float = 16.0
     let defaultLocation = CLLocation(latitude: 37.7749, longitude: -122.4194)
+    var countOfMarkersWithoutALocation = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()

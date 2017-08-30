@@ -11,7 +11,9 @@ extension Get {
             do {
                 let json = try JSONSerialization.jsonObject(with: data!, options: []) as! [[String: Any]]
                 for spotDictionary in json {
+                    
                     let parkingSpot = self.getSpotFrom(spotDictionary)
+                    print(parkingSpot.longitude, parkingSpot.latitude, "<====")
                     completion(parkingSpot)
                 }
             }
