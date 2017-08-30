@@ -1,5 +1,5 @@
 # ParkMyWheels
-Park My Wheels a.k.a. SFMotorcycleParking is an iOS app that shows SF Public Motorcycle Parking on a map.
+Park My Wheels, also known as SFMotorcycleParking, is an iOS app that shows SF Public Motorcycle Parking on a map.
 
 # Style
 - This app was coded with a highly modular style which I currently favor, because navigating the project only requires toggling the up and down arrows.  Because there are fewer distractions on a view, the code is very easy to understand.  
