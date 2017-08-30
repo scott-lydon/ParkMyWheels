@@ -1,0 +1,6 @@
+framework module Pods_SFMotorcycleParking {
+  umbrella header "Pods-SFMotorcycleParking-umbrella.h"
+
+  export *
+  module * { export * }
+}

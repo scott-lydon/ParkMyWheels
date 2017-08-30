@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C0877D749F7C2F35F242AF0A820EF5 /* Pods-SFMotorcycleParkingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F810C68DBED37D78B82CBDF25475D /* Pods-SFMotorcycleParkingTests-dummy.m */; };
+		139A9BDC6ADAB514CD32C67E61669936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		516FA933EE1E3358B65B901F450AD592 /* Pods-SFMotorcycleParking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE617659E7FF8F8C4EA7A1869592E /* Pods-SFMotorcycleParking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14BF25FEB57A57FBDBA0381C23B84C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1C6C6B100C5A08488AA7A26F4D5FB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B2C70883E41F28A430B44068D8503673 /* Pods-SFMotorcycleParkingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4302D3B276591368011058401F4837 /* Pods-SFMotorcycleParkingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74C26D67D8FDC352AA717F86F56624F /* Pods-SFMotorcycleParking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D5384B51FC1D4B42134D74380CAAD6 /* Pods-SFMotorcycleParking-dummy.m */; };
+		F06E7FAA914F5FD41A9FEBA3E5827697 /* Pods-SFMotorcycleParkingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31159A8F68864AB44A0F6575E2F2B6 /* Pods-SFMotorcycleParkingUITests-dummy.m */; };
+		FB9FBDCA849298708D09FAD78C497752 /* Pods-SFMotorcycleParkingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F5F89CFB8F36090168E7DEB128D740 /* Pods-SFMotorcycleParkingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0145A0CE1B56819289210767D080AF9B /* Pods_SFMotorcycleParking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFMotorcycleParking.framework; path = "Pods-SFMotorcycleParking.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		021096729E4374AA24156A0093A99A23 /* Pods-SFMotorcycleParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMotorcycleParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		09D5E12DE4E9E14ED9F3E7D2D5E194E4 /* Pods-SFMotorcycleParking-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFMotorcycleParking-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E356E74DECE82606C85C6B484D7EDCD /* Pods-SFMotorcycleParking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMotorcycleParking.debug.xcconfig"; sourceTree = "<group>"; };
+		12F430FDBCB8BA8936417CCA1599C68E /* Pods_SFMotorcycleParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFMotorcycleParkingUITests.framework; path = "Pods-SFMotorcycleParkingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		297165AD91AE95572D3EBCDD0784AA2F /* Pods_SFMotorcycleParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFMotorcycleParkingTests.framework; path = "Pods-SFMotorcycleParkingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3174DF352F682E160E39DCF14F3D4BF2 /* Pods-SFMotorcycleParking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMotorcycleParking.release.xcconfig"; sourceTree = "<group>"; };
+		366AEFD1FD716DBE27346683D46FD716 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6F26495D6C086278A93E298932A719 /* Pods-SFMotorcycleParkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMotorcycleParkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AB4A6BB406F2F7CA2B7248A8E0D5D33 /* Pods-SFMotorcycleParkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMotorcycleParkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4091503BAD64E66AC3DEE855E3034565 /* Pods-SFMotorcycleParkingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SFMotorcycleParkingUITests.modulemap"; sourceTree = "<group>"; };
+		4ABD578B5C9DA44CA3B3FD63B55985D7 /* Pods-SFMotorcycleParkingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFMotorcycleParkingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5527754C809D51A100C2DB4499BEF9E6 /* Pods-SFMotorcycleParking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SFMotorcycleParking.modulemap"; sourceTree = "<group>"; };
+		5D2AE617659E7FF8F8C4EA7A1869592E /* Pods-SFMotorcycleParking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFMotorcycleParking-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67486D4D09684A76ECDB1AADDED3350C /* Pods-SFMotorcycleParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMotorcycleParkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		71F16385DB45536A08427B354CBA76CA /* Pods-SFMotorcycleParkingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFMotorcycleParkingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		72AF8D4A2427336C27F398D068A2DAB6 /* Pods-SFMotorcycleParkingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMotorcycleParkingTests-frameworks.sh"; sourceTree = "<group>"; };
+		8D31159A8F68864AB44A0F6575E2F2B6 /* Pods-SFMotorcycleParkingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFMotorcycleParkingUITests-dummy.m"; sourceTree = "<group>"; };
+		9251D2F8DFC68504BE98BCA19852FC18 /* Pods-SFMotorcycleParkingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMotorcycleParkingUITests-resources.sh"; sourceTree = "<group>"; };
+		929F810C68DBED37D78B82CBDF25475D /* Pods-SFMotorcycleParkingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFMotorcycleParkingTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9438AB43362905D16CDCBDD4E332BEE5 /* Pods-SFMotorcycleParking-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMotorcycleParking-frameworks.sh"; sourceTree = "<group>"; };
+		96F5F89CFB8F36090168E7DEB128D740 /* Pods-SFMotorcycleParkingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFMotorcycleParkingTests-umbrella.h"; sourceTree = "<group>"; };
+		9D0BAE7E1DC4CEF81EFA63266FFC1814 /* Pods-SFMotorcycleParkingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SFMotorcycleParkingTests.modulemap"; sourceTree = "<group>"; };
+		9FD2470F5BD5EC8FCAE086A86783DE1F /* Pods-SFMotorcycleParkingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFMotorcycleParkingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A7BC1C7DE8429DB509FAFA894F4CECF6 /* Pods-SFMotorcycleParkingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMotorcycleParkingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		AD5746589DF94918403B4105906B6704 /* Pods-SFMotorcycleParking-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFMotorcycleParking-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD6EA9490172BA8094B29600B65EC2A0 /* Pods-SFMotorcycleParking-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMotorcycleParking-resources.sh"; sourceTree = "<group>"; };
+		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B671FFFDC2F78EE522500BBCD6EDFEE3 /* Pods-SFMotorcycleParkingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMotorcycleParkingTests-resources.sh"; sourceTree = "<group>"; };
+		BD0284BE486D1CB12815F6CC153D660C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D5384B51FC1D4B42134D74380CAAD6 /* Pods-SFMotorcycleParking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFMotorcycleParking-dummy.m"; sourceTree = "<group>"; };
+		DD4302D3B276591368011058401F4837 /* Pods-SFMotorcycleParkingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFMotorcycleParkingUITests-umbrella.h"; sourceTree = "<group>"; };
+		E45C6B2407A247E6C656003AC72B0D1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2B43A194ECD4A2D357DFD133EEA294 /* Pods-SFMotorcycleParkingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFMotorcycleParkingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EEFFB0A2BD631DE33EED8A65EB2669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C6C6B100C5A08488AA7A26F4D5FB5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C5D1BDA6921641E721DB68F3FB0E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139A9BDC6ADAB514CD32C67E61669936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38BB7DC9E3901A02495CE75F9445055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14BF25FEB57A57FBDBA0381C23B84C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				475420FA59EFC8377CF994A338979247 /* Frameworks */,
+				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		0852AE518360E85C5E8FF0C463B62441 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B096FF56777B7ADA9F7552E2CF1CB56 /* Pods-SFMotorcycleParking */,
+				819D737B245AFA77B646B58D39CACB56 /* Pods-SFMotorcycleParkingTests */,
+				32AE3148DB320DCA51E53602F1FFA032 /* Pods-SFMotorcycleParkingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1B096FF56777B7ADA9F7552E2CF1CB56 /* Pods-SFMotorcycleParking */ = {
+			isa = PBXGroup;
+			children = (
+				BD0284BE486D1CB12815F6CC153D660C /* Info.plist */,
+				5527754C809D51A100C2DB4499BEF9E6 /* Pods-SFMotorcycleParking.modulemap */,
+				AD5746589DF94918403B4105906B6704 /* Pods-SFMotorcycleParking-acknowledgements.markdown */,
+				09D5E12DE4E9E14ED9F3E7D2D5E194E4 /* Pods-SFMotorcycleParking-acknowledgements.plist */,
+				D1D5384B51FC1D4B42134D74380CAAD6 /* Pods-SFMotorcycleParking-dummy.m */,
+				9438AB43362905D16CDCBDD4E332BEE5 /* Pods-SFMotorcycleParking-frameworks.sh */,
+				AD6EA9490172BA8094B29600B65EC2A0 /* Pods-SFMotorcycleParking-resources.sh */,
+				5D2AE617659E7FF8F8C4EA7A1869592E /* Pods-SFMotorcycleParking-umbrella.h */,
+				0E356E74DECE82606C85C6B484D7EDCD /* Pods-SFMotorcycleParking.debug.xcconfig */,
+				3174DF352F682E160E39DCF14F3D4BF2 /* Pods-SFMotorcycleParking.release.xcconfig */,
+			);
+			name = "Pods-SFMotorcycleParking";
+			path = "Target Support Files/Pods-SFMotorcycleParking";
+			sourceTree = "<group>";
+		};
+		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
+				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		32AE3148DB320DCA51E53602F1FFA032 /* Pods-SFMotorcycleParkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				366AEFD1FD716DBE27346683D46FD716 /* Info.plist */,
+				4091503BAD64E66AC3DEE855E3034565 /* Pods-SFMotorcycleParkingUITests.modulemap */,
+				EC2B43A194ECD4A2D357DFD133EEA294 /* Pods-SFMotorcycleParkingUITests-acknowledgements.markdown */,
+				71F16385DB45536A08427B354CBA76CA /* Pods-SFMotorcycleParkingUITests-acknowledgements.plist */,
+				8D31159A8F68864AB44A0F6575E2F2B6 /* Pods-SFMotorcycleParkingUITests-dummy.m */,
+				A7BC1C7DE8429DB509FAFA894F4CECF6 /* Pods-SFMotorcycleParkingUITests-frameworks.sh */,
+				9251D2F8DFC68504BE98BCA19852FC18 /* Pods-SFMotorcycleParkingUITests-resources.sh */,
+				DD4302D3B276591368011058401F4837 /* Pods-SFMotorcycleParkingUITests-umbrella.h */,
+				3AB4A6BB406F2F7CA2B7248A8E0D5D33 /* Pods-SFMotorcycleParkingUITests.debug.xcconfig */,
+				3A6F26495D6C086278A93E298932A719 /* Pods-SFMotorcycleParkingUITests.release.xcconfig */,
+			);
+			name = "Pods-SFMotorcycleParkingUITests";
+			path = "Target Support Files/Pods-SFMotorcycleParkingUITests";
+			sourceTree = "<group>";
+		};
+		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
+				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
+				343584E22C57489C672A8E6F731CB43A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		602F93C9C58C190F98B00698216A186A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0145A0CE1B56819289210767D080AF9B /* Pods_SFMotorcycleParking.framework */,
+				297165AD91AE95572D3EBCDD0784AA2F /* Pods_SFMotorcycleParkingTests.framework */,
+				12F430FDBCB8BA8936417CCA1599C68E /* Pods_SFMotorcycleParkingUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				385FA015FFB9210F372AB1078B856AAB /* Pods */,
+				602F93C9C58C190F98B00698216A186A /* Products */,
+				0852AE518360E85C5E8FF0C463B62441 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		819D737B245AFA77B646B58D39CACB56 /* Pods-SFMotorcycleParkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45C6B2407A247E6C656003AC72B0D1D /* Info.plist */,
+				9D0BAE7E1DC4CEF81EFA63266FFC1814 /* Pods-SFMotorcycleParkingTests.modulemap */,
+				4ABD578B5C9DA44CA3B3FD63B55985D7 /* Pods-SFMotorcycleParkingTests-acknowledgements.markdown */,
+				9FD2470F5BD5EC8FCAE086A86783DE1F /* Pods-SFMotorcycleParkingTests-acknowledgements.plist */,
+				929F810C68DBED37D78B82CBDF25475D /* Pods-SFMotorcycleParkingTests-dummy.m */,
+				72AF8D4A2427336C27F398D068A2DAB6 /* Pods-SFMotorcycleParkingTests-frameworks.sh */,
+				B671FFFDC2F78EE522500BBCD6EDFEE3 /* Pods-SFMotorcycleParkingTests-resources.sh */,
+				96F5F89CFB8F36090168E7DEB128D740 /* Pods-SFMotorcycleParkingTests-umbrella.h */,
+				021096729E4374AA24156A0093A99A23 /* Pods-SFMotorcycleParkingTests.debug.xcconfig */,
+				67486D4D09684A76ECDB1AADDED3350C /* Pods-SFMotorcycleParkingTests.release.xcconfig */,
+			);
+			name = "Pods-SFMotorcycleParkingTests";
+			path = "Target Support Files/Pods-SFMotorcycleParkingTests";
+			sourceTree = "<group>";
+		};
+		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
+				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57547EFBC900F3E8C0E84563B541D102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516FA933EE1E3358B65B901F450AD592 /* Pods-SFMotorcycleParking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D294647FA74BECAAA56F65E4CE51B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C70883E41F28A430B44068D8503673 /* Pods-SFMotorcycleParkingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB630364E3DDA2F559EDD400D8B73924 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9FBDCA849298708D09FAD78C497752 /* Pods-SFMotorcycleParkingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50581BD60D0E717CEEC9DE4C1217F6D4 /* Pods-SFMotorcycleParking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAAE66465A59B91659B2C3170C1BDA6 /* Build configuration list for PBXNativeTarget "Pods-SFMotorcycleParking" */;
+			buildPhases = (
+				5941FD7F77453121D6B584D140ACB73D /* Sources */,
+				37C5D1BDA6921641E721DB68F3FB0E33 /* Frameworks */,
+				57547EFBC900F3E8C0E84563B541D102 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SFMotorcycleParking";
+			productName = "Pods-SFMotorcycleParking";
+			productReference = 0145A0CE1B56819289210767D080AF9B /* Pods_SFMotorcycleParking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D9070601BF78D1D8043596B620D83AF /* Pods-SFMotorcycleParkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941E9BB626D8BDA52C25D2BEF7B79015 /* Build configuration list for PBXNativeTarget "Pods-SFMotorcycleParkingTests" */;
+			buildPhases = (
+				C8AE76B17323CA20020EB402D32A8DF4 /* Sources */,
+				C38BB7DC9E3901A02495CE75F9445055 /* Frameworks */,
+				BB630364E3DDA2F559EDD400D8B73924 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SFMotorcycleParkingTests";
+			productName = "Pods-SFMotorcycleParkingTests";
+			productReference = 297165AD91AE95572D3EBCDD0784AA2F /* Pods_SFMotorcycleParkingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E90D1462EC4F9FC80AF577BD76746670 /* Pods-SFMotorcycleParkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3DD46752A31B0074BCC0A056DEDB40 /* Build configuration list for PBXNativeTarget "Pods-SFMotorcycleParkingUITests" */;
+			buildPhases = (
+				3AB15D76F4CC6BE14E08F7BAC404DB8D /* Sources */,
+				03EEFFB0A2BD631DE33EED8A65EB2669 /* Frameworks */,
+				65D294647FA74BECAAA56F65E4CE51B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SFMotorcycleParkingUITests";
+			productName = "Pods-SFMotorcycleParkingUITests";
+			productReference = 12F430FDBCB8BA8936417CCA1599C68E /* Pods_SFMotorcycleParkingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 602F93C9C58C190F98B00698216A186A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50581BD60D0E717CEEC9DE4C1217F6D4 /* Pods-SFMotorcycleParking */,
+				8D9070601BF78D1D8043596B620D83AF /* Pods-SFMotorcycleParkingTests */,
+				E90D1462EC4F9FC80AF577BD76746670 /* Pods-SFMotorcycleParkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB15D76F4CC6BE14E08F7BAC404DB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06E7FAA914F5FD41A9FEBA3E5827697 /* Pods-SFMotorcycleParkingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5941FD7F77453121D6B584D140ACB73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74C26D67D8FDC352AA717F86F56624F /* Pods-SFMotorcycleParking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AE76B17323CA20020EB402D32A8DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C0877D749F7C2F35F242AF0A820EF5 /* Pods-SFMotorcycleParkingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B7CCE0284CFF77CF37A38DD81C12490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67486D4D09684A76ECDB1AADDED3350C /* Pods-SFMotorcycleParkingTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMotorcycleParkingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMotorcycleParkingTests/Pods-SFMotorcycleParkingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SFMotorcycleParkingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C7B2871FAF72AF24ED2D50F963E2BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6F26495D6C086278A93E298932A719 /* Pods-SFMotorcycleParkingUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMotorcycleParkingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMotorcycleParkingUITests/Pods-SFMotorcycleParkingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SFMotorcycleParkingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9126BD18F25FC252DBA203E71BBD8987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021096729E4374AA24156A0093A99A23 /* Pods-SFMotorcycleParkingTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMotorcycleParkingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMotorcycleParkingTests/Pods-SFMotorcycleParkingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SFMotorcycleParkingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA6CCB90E1B36D5298A3E26222D4809C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB4A6BB406F2F7CA2B7248A8E0D5D33 /* Pods-SFMotorcycleParkingUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMotorcycleParkingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMotorcycleParkingUITests/Pods-SFMotorcycleParkingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SFMotorcycleParkingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC919878599AEC15618555BCF8490728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3174DF352F682E160E39DCF14F3D4BF2 /* Pods-SFMotorcycleParking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMotorcycleParking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMotorcycleParking/Pods-SFMotorcycleParking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SFMotorcycleParking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB89A9856CA660F4CB2DAFFBEC564D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E356E74DECE82606C85C6B484D7EDCD /* Pods-SFMotorcycleParking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMotorcycleParking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMotorcycleParking/Pods-SFMotorcycleParking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SFMotorcycleParking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D3DD46752A31B0074BCC0A056DEDB40 /* Build configuration list for PBXNativeTarget "Pods-SFMotorcycleParkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6CCB90E1B36D5298A3E26222D4809C /* Debug */,
+				4C7B2871FAF72AF24ED2D50F963E2BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941E9BB626D8BDA52C25D2BEF7B79015 /* Build configuration list for PBXNativeTarget "Pods-SFMotorcycleParkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9126BD18F25FC252DBA203E71BBD8987 /* Debug */,
+				3B7CCE0284CFF77CF37A38DD81C12490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAAE66465A59B91659B2C3170C1BDA6 /* Build configuration list for PBXNativeTarget "Pods-SFMotorcycleParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB89A9856CA660F4CB2DAFFBEC564D7F /* Debug */,
+				BC919878599AEC15618555BCF8490728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
