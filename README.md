@@ -14,7 +14,7 @@ Park My Wheels, also known as SFMotorcycleParking, is an iOS app that shows SF P
 # Cautions
 - Running this app on XCode 9 Beta, and other apps that use the Google Maps pod creates a threading bug which I have documented on [StackOverflow](https://stackoverflow.com/questions/44767778/main-thread-checker-ui-api-called-on-a-background-thread-uiapplication-appli/45913510#45913510) (handle: ScottyBlades).
 
-- Zipping and unzipping this project corrupt the storyboard files likely also because of the Google Maps pod. Cloning and pulling from a repo is preferred. 
+- Zipping and unzipping this project corrupts the storyboard files, likely because of the Google Maps pod. Cloning and pulling from a repo is preferred. 
 
 # Functional Design Note
 - There are two endpoints called for parking spots, one for metered parking, and one for non-metered parking.  While handling the responses from both endpoints are similar processes.  There are two reasons I decided to keep the handlers as 2 separate lines of execution and not combine them.  
