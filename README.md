@@ -12,7 +12,7 @@ An iOS app that shows SF Public Motorcycle Parking on a map
 
 
 # Cautions
-- Running this app on XCode 9 Beta, since it uses the Google Maps pod, creates a threading bug which I have mentioned on [StackOverflow.](https://stackoverflow.com/questions/44767778/main-thread-checker-ui-api-called-on-a-background-thread-uiapplication-appli/45913510#45913510) (handle: ScottyBlades)
+- Running this app on XCode 9 Beta, and other apps that use the Google Maps pod, creates a threading bug which I have documented on [StackOverflow.](https://stackoverflow.com/questions/44767778/main-thread-checker-ui-api-called-on-a-background-thread-uiapplication-appli/45913510#45913510) (handle: ScottyBlades)
 
 - zipping and unzipping this project corrupt the storyboard files likely also because of the Google Maps pod. Cloning and pulling from a repo is preferred. 
 
