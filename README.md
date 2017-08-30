@@ -8,7 +8,7 @@ An iOS app that shows SF Public Motorcycle Parking on a map
 
 - File structure: If functionA contains both functionB, and functionC, the convention will be: FunctionA.swift, followed by a folder: FunctionA, with contents FunctionB.swift, and FunctionC.swift. 
 
-- As a general rule I attempt to have all individual functions and blocks of code shorter than 15 lines each. 
+- As a general rule individual functions and blocks are shorter than 15 lines. 
 
 
 # Cautions
