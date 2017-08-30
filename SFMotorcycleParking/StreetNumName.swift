@@ -6,8 +6,10 @@ import GooglePlaces
 extension ViewController {
     func streetNum(_ parkingSpot: ParkingSpot) -> String {
         var num = " "
-        if parkingSpot.streetNumber != nil {
+        if parkingSpot.streetNumber != nil && parkingSpot.streetName != nil {
             num = parkingSpot.streetNumber! + " "
+        } else {
+            return ""
         }
         return num
     }

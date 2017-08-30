@@ -43,6 +43,7 @@
 		754204D31ED8A830008BE886 /* Metered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754204D21ED8A830008BE886 /* Metered.swift */; };
 		754204D51ED8A909008BE886 /* NonMetered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754204D41ED8A909008BE886 /* NonMetered.swift */; };
 		754204DB1ED8B2B4008BE886 /* Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754204DA1ED8B2B4008BE886 /* Get.swift */; };
+		755878721F56B9B8003FBC7A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755878711F56B9B8003FBC7A /* Reachability.swift */; };
 		7568E6A01ED3DA10001E7816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7568E69F1ED3DA10001E7816 /* AppDelegate.swift */; };
 		7568E6A21ED3DA10001E7816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7568E6A11ED3DA10001E7816 /* ViewController.swift */; };
 		7568E6A51ED3DA10001E7816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7568E6A31ED3DA10001E7816 /* Main.storyboard */; };
@@ -149,6 +150,7 @@
 		754204D21ED8A830008BE886 /* Metered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metered.swift; sourceTree = "<group>"; };
 		754204D41ED8A909008BE886 /* NonMetered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMetered.swift; sourceTree = "<group>"; };
 		754204DA1ED8B2B4008BE886 /* Get.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Get.swift; path = Getter/Get.swift; sourceTree = "<group>"; };
+		755878711F56B9B8003FBC7A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		7568E69C1ED3DA10001E7816 /* SFMotorcycleParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFMotorcycleParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7568E69F1ED3DA10001E7816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7568E6A11ED3DA10001E7816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -317,6 +319,14 @@
 			name = ViewDidAppear;
 			sourceTree = "<group>";
 		};
+		755878701F56B99C003FBC7A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				755878711F56B9B8003FBC7A /* Reachability.swift */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 		7568E6931ED3DA10001E7816 = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +371,7 @@
 			children = (
 				752A135D1F55487A0011A7DF /* ParkingSpot */,
 				752A131E1F5544D30011A7DF /* Get */,
+				755878701F56B99C003FBC7A /* Reachability */,
 				752A13201F5544E10011A7DF /* ViewController */,
 				7568E6B41ED3DA10001E7816 /* SFMotorcycleParkingTests.swift */,
 				7568E6B61ED3DA10001E7816 /* Info.plist */,
@@ -963,6 +974,7 @@
 				752A13501F5546540011A7DF /* AlreadyHas.swift in Sources */,
 				752A133C1F5545E60011A7DF /* VProperties.swift in Sources */,
 				752A135F1F554A500011A7DF /* ParkingSpot.swift in Sources */,
+				755878721F56B9B8003FBC7A /* Reachability.swift in Sources */,
 				752A135A1F55475A0011A7DF /* GetIconFor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

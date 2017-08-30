@@ -8,10 +8,12 @@ extension Get {
             print("error \(String(describing: error)) -ScottNote")
         } else {
             do {
-                let json = try JSONSerialization.jsonObject(with: data!, options: []) as! [[String: Any]]
-                for spotDictionary in json {
-                    let parkingSpot: ParkingSpot = self.getMeteredSpotFrom(spotDictionary)
-                    completion(parkingSpot)
+                let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [[String: Any]]
+                if let json = json {
+                    for spotDictionary in json {
+                        let parkingSpot: ParkingSpot = self.getMeteredSpotFrom(spotDictionary)
+                        completion(parkingSpot)
+                    }
                 }
             } catch {
                 print("caught metered -SL")

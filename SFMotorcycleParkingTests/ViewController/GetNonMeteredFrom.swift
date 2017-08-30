@@ -23,6 +23,7 @@ extension SFMotorcycleParkingTests {
 //        }
 //    }
     
+
     func testVCGetNonMeteredFromTop() {
         if !Reachability.isConnectedToNetwork() {
             XCTFail("Not Connected to the internet.  Not able to test \(#function).")
@@ -36,7 +37,7 @@ extension SFMotorcycleParkingTests {
         let topRight = CLLocationCoordinate2D(latitude: 37.7696, longitude: -122.354201897979)
         vc?.getNonMeteredFrom(bottomLeft, topRight)
         sleep(2)
-        //MARK: some variance in network response may cause this to fail, when functional.  If this passes once, then it is fine. 
+        //MARK: some variance in network response may cause this to fail, when functional. If this happens run the test again, If this passes once, then it is fine because the app makes multiple calls as the user moves the window/camer. 
         XCTAssert((vc?.alreadyHasMetered(mockParkingSpot))!)
     }
     

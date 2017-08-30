@@ -6,7 +6,7 @@ import GooglePlaces
 extension ViewController {
     func configureMarkerFor(_ parkingSpot: ParkingSpot) -> GMSMarker {
         if let lat = parkingSpot.latitude, let lon = parkingSpot.longitude {
-            let position = CLLocationCoordinate2D(latitude: parkingSpot.latitude!, longitude: parkingSpot.longitude!)
+            let position = CLLocationCoordinate2D(latitude: lat, longitude: lon)
             let marker = GMSMarker(position: position)
             marker.title = getMarkerTextFor(parkingSpot)
             marker.icon = getIconFor(parkingSpot)
