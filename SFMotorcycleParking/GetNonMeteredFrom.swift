@@ -11,7 +11,6 @@ extension ViewController {
         
         Get.parking.nonMetered(bottomLeft: bottomLeftStr, topRight: bottomRightStr) {
             (parkingSpot) in
-            print("CheckHere", parkingSpot.id!)
             if self.alreadyHasMetered(parkingSpot) || parkingSpot.latitude == nil || parkingSpot.longitude == nil{
                 return
             }

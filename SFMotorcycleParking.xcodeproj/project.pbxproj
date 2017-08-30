@@ -25,8 +25,6 @@
 		752A13401F5545FF0011A7DF /* ConfigureLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A133F1F5545FF0011A7DF /* ConfigureLocationManager.swift */; };
 		752A13421F5546060011A7DF /* ConfigureMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13411F5546060011A7DF /* ConfigureMapView.swift */; };
 		752A13441F55460D0011A7DF /* StyleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13431F55460D0011A7DF /* StyleMap.swift */; };
-		752A13461F55461D0011A7DF /* MapIdles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13451F55461D0011A7DF /* MapIdles.swift */; };
-		752A13481F5546250011A7DF /* UserMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13471F5546250011A7DF /* UserMoves.swift */; };
 		752A134A1F55462D0011A7DF /* ResetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13491F55462D0011A7DF /* ResetMapView.swift */; };
 		752A134C1F5546390011A7DF /* GetNonMeteredFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A134B1F5546390011A7DF /* GetNonMeteredFrom.swift */; };
 		752A134E1F5546480011A7DF /* AlreadyHasMetered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A134D1F5546480011A7DF /* AlreadyHasMetered.swift */; };
@@ -37,7 +35,6 @@
 		752A13581F5546D00011A7DF /* StreetNumName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13571F5546D00011A7DF /* StreetNumName.swift */; };
 		752A135A1F55475A0011A7DF /* GetIconFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13591F55475A0011A7DF /* GetIconFor.swift */; };
 		752A135C1F5547630011A7DF /* ConfigureMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A135B1F5547630011A7DF /* ConfigureMarker.swift */; };
-		752A135F1F554A500011A7DF /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A135E1F554A500011A7DF /* ParkingSpot.swift */; };
 		752A13611F5600260011A7DF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13601F5600260011A7DF /* Reachability.swift */; };
 		752A13651F560D370011A7DF /* AlertForNoConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13641F560D370011A7DF /* AlertForNoConnection.swift */; };
 		754204D31ED8A830008BE886 /* Metered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754204D21ED8A830008BE886 /* Metered.swift */; };
@@ -132,8 +129,6 @@
 		752A133F1F5545FF0011A7DF /* ConfigureLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureLocationManager.swift; sourceTree = "<group>"; };
 		752A13411F5546060011A7DF /* ConfigureMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureMapView.swift; sourceTree = "<group>"; };
 		752A13431F55460D0011A7DF /* StyleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleMap.swift; sourceTree = "<group>"; };
-		752A13451F55461D0011A7DF /* MapIdles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapIdles.swift; sourceTree = "<group>"; };
-		752A13471F5546250011A7DF /* UserMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMoves.swift; sourceTree = "<group>"; };
 		752A13491F55462D0011A7DF /* ResetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetMapView.swift; sourceTree = "<group>"; };
 		752A134B1F5546390011A7DF /* GetNonMeteredFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNonMeteredFrom.swift; sourceTree = "<group>"; };
 		752A134D1F5546480011A7DF /* AlreadyHasMetered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlreadyHasMetered.swift; sourceTree = "<group>"; };
@@ -144,7 +139,6 @@
 		752A13571F5546D00011A7DF /* StreetNumName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetNumName.swift; sourceTree = "<group>"; };
 		752A13591F55475A0011A7DF /* GetIconFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIconFor.swift; sourceTree = "<group>"; };
 		752A135B1F5547630011A7DF /* ConfigureMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureMarker.swift; sourceTree = "<group>"; };
-		752A135E1F554A500011A7DF /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
 		752A13601F5600260011A7DF /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		752A13641F560D370011A7DF /* AlertForNoConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForNoConnection.swift; sourceTree = "<group>"; };
 		754204D21ED8A830008BE886 /* Metered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metered.swift; sourceTree = "<group>"; };
@@ -287,8 +281,6 @@
 				752A133F1F5545FF0011A7DF /* ConfigureLocationManager.swift */,
 				752A13411F5546060011A7DF /* ConfigureMapView.swift */,
 				752A13431F55460D0011A7DF /* StyleMap.swift */,
-				752A13451F55461D0011A7DF /* MapIdles.swift */,
-				752A13471F5546250011A7DF /* UserMoves.swift */,
 				752A13491F55462D0011A7DF /* ResetMapView.swift */,
 				752A134B1F5546390011A7DF /* GetNonMeteredFrom.swift */,
 				752A134D1F5546480011A7DF /* AlreadyHasMetered.swift */,
@@ -301,14 +293,6 @@
 				752A135B1F5547630011A7DF /* ConfigureMarker.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		752A135D1F55487A0011A7DF /* ParkingSpot */ = {
-			isa = PBXGroup;
-			children = (
-				752A135E1F554A500011A7DF /* ParkingSpot.swift */,
-			);
-			path = ParkingSpot;
 			sourceTree = "<group>";
 		};
 		752A13631F560D0F0011A7DF /* ViewDidAppear */ = {
@@ -369,7 +353,6 @@
 		7568E6B31ED3DA10001E7816 /* SFMotorcycleParkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				752A135D1F55487A0011A7DF /* ParkingSpot */,
 				752A131E1F5544D30011A7DF /* Get */,
 				755878701F56B99C003FBC7A /* Reachability */,
 				752A13201F5544E10011A7DF /* ViewController */,
@@ -967,13 +950,10 @@
 				752A13401F5545FF0011A7DF /* ConfigureLocationManager.swift in Sources */,
 				752A13301F55459A0011A7DF /* NonMetered.swift in Sources */,
 				752A13261F55454A0011A7DF /* MeteredGetURLFrom.swift in Sources */,
-				752A13461F55461D0011A7DF /* MapIdles.swift in Sources */,
-				752A13481F5546250011A7DF /* UserMoves.swift in Sources */,
 				752A13361F5545B80011A7DF /* GetSpotFrom.swift in Sources */,
 				752A132A1F5545770011A7DF /* GetMeteredSpotFrom.swift in Sources */,
 				752A13501F5546540011A7DF /* AlreadyHas.swift in Sources */,
 				752A133C1F5545E60011A7DF /* VProperties.swift in Sources */,
-				752A135F1F554A500011A7DF /* ParkingSpot.swift in Sources */,
 				755878721F56B9B8003FBC7A /* Reachability.swift in Sources */,
 				752A135A1F55475A0011A7DF /* GetIconFor.swift in Sources */,
 			);

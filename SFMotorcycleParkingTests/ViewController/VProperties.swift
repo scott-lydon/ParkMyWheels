@@ -6,14 +6,6 @@ import XCTest
 @testable import SFMotorcycleParking
 
 extension SFMotorcycleParkingTests {
-//    var locationManager = CLLocationManager()
-//    var currentLocation: CLLocation?
-//    var mapView: GMSMapView!
-//    var meteredIDs: [String: Bool] = [:]
-//    var nonMeteredIDs: [String: Bool] = [:]
-//    var placesClient: GMSPlacesClient!
-//    var zoomLevel: Float = 16.0
-//    let defaultLocation = CLLocation(latitude: 37.7749, longitude: -122.4194)
     
     func testLocationManagerNotNil() {
         vc?.viewDidLoad()

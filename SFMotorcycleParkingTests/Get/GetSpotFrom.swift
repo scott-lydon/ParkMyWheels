@@ -6,49 +6,116 @@ import XCTest
 @testable import SFMotorcycleParking
 
 extension SFMotorcycleParkingTests {
-//    func getSpotFrom(_ dict: [String: Any]) -> ParkingSpot {
-//        
-//        return ParkingSpot(rateArea: "free", activeOccupancySensor: nil, streetName: dict["street"] as? String, streetNumber: "none", smartMeter: dict["smart_mete"] as? String, latitude: getLat(dict), longitude: getLon(dict), areaDescription: dict["description"] as? String, id: dict["post_id"] as? String)
-//    }
     
-    func testGetNonMeteredFrom() {
-        let dict = [
-            "ratearea": "123",
-            "activesens": "234",
-            "street": "345",
-            "street_num": "456",
-            "smart_mete": "567",
-            "object_id": "678",
-            "description": "Elm st.999",
-            "geom": ["coordinates": [37.7114610887894, -122.46198579669]]
-            ] as [String : Any]
+    
+    func testSetFreeRateArea() {
+        let dict = ["ratearea": "123"]
         let parkingSpot = Get.parking.getSpotFrom(dict)
         XCTAssertEqual(parkingSpot.rateArea, "free")
-        XCTAssertEqual(parkingSpot.activeOccupancySensor, nil)
+    }
+    
+    func testSetFreeRateAreaFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertEqual(parkingSpot.rateArea, "free")
+    }
+    
+    func testSetFreeActiveSens() {
+        let dict = ["activesens": "234"]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertNil(parkingSpot.activeOccupancySensor)
+    }
+    
+    func testFreeActiveSenseFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertNil(parkingSpot.activeOccupancySensor)
+    }
+    
+    func testSetFreeStreetName() {
+        let dict = ["street": "345"]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
         XCTAssertEqual(parkingSpot.streetName, "345")
+    }
+   
+    
+    func testSetFreeStreetNameFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertNil(parkingSpot.streetName)
+    }
+    
+    func testSetFreeStreetNum() {
+        let dict = ["street_num": "456"]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
         XCTAssertEqual(parkingSpot.streetNumber, "none")
+    }
+    
+    func testFreeSetStreetNumFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertEqual(parkingSpot.streetNumber, "none")
+    }
+    
+    func testSetFreeSmartMeter() {
+        let dict = ["smart_mete": "567"]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
         XCTAssertEqual(parkingSpot.smartMeter, "567")
+    }
+    
+    func testSetFreeSmartMeterFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertNil(parkingSpot.smartMeter)
+    }
+    
+    func testFreeSetId() {
+        let dict = ["object_id": "678"]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertEqual(parkingSpot.id, "678")
+    }
+    
+    func testFreeSetIdFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertNil(parkingSpot.id)
+    }
+    
+    func testFreeSetLon() {
+        let dict = ["geom": ["coordinates": [37.7114610887894, -122.46198579669]]]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
         XCTAssertTrue(parkingSpot.longitude! < 37.71146108879)
         XCTAssertTrue(parkingSpot.longitude! > 37.711461088789)
-        //Optional(:Double) to Double conversion loses accuracy.
+    }
+    
+    func testFreeSetLonFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertNil(parkingSpot.longitude)
+    }
+    
+    func testFreeSetlat() {
+        let dict = ["geom": ["coordinates": [37.7114610887894, -122.46198579669]]]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
         XCTAssertTrue(parkingSpot.latitude! < -122.4619857966)
         XCTAssertTrue(parkingSpot.latitude! > -122.461985797)
-        XCTAssertEqual(parkingSpot.id, "678")
-        XCTAssertEqual(parkingSpot.areaDescription, "Elm st.999")
     }
     
-    func testGetNonMeteredFromFail() {
-        let dict = [String : Any]()
+    func testFreeSetlatFail() {
+        let dict = [String:String]()
         let parkingSpot = Get.parking.getSpotFrom(dict)
-        XCTAssertEqual(parkingSpot.rateArea, "free")
-        XCTAssertNil(parkingSpot.activeOccupancySensor)
-        XCTAssertNil(parkingSpot.streetName)
-        XCTAssertEqual(parkingSpot.streetNumber, "none")
-        XCTAssertNil(parkingSpot.smartMeter)
-        XCTAssertNil(parkingSpot.longitude)
         XCTAssertNil(parkingSpot.latitude)
-        XCTAssertNil(parkingSpot.id)
-        XCTAssertNil(parkingSpot.areaDescription)
     }
     
+    func testFreeSetDescription() {
+        let dict = ["description": "FROM CUSHMAN ST. TO 18' EASTERLY"]
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertEqual(parkingSpot.areaDescription, "FROM CUSHMAN ST. TO 18' EASTERLY")
+    }
+    
+    func testFreeSetDescriptionFail() {
+        let dict = [String:String]()
+        let parkingSpot = Get.parking.getSpotFrom(dict)
+        XCTAssertEqual(parkingSpot.areaDescription, nil)
+    }
 }

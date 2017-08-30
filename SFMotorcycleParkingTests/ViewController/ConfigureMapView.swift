@@ -6,10 +6,6 @@ import XCTest
 @testable import SFMotorcycleParking
 
 extension SFMotorcycleParkingTests {
-//    @objc func configureMapView() {
-//        let camera = GMSCameraPosition.camera(withLatitude: defaultLocation.coordinate.latitude, longitude: defaultLocation.coordinate.longitude, zoom: zoomLevel)
-//        mapView = GMSMapView.map(withFrame: view.bounds, camera: camera)
-//    }
     
     func testMapViewSetAutoresizingMask() {
         vc?.configureMapView()
@@ -39,5 +35,4 @@ extension SFMotorcycleParkingTests {
         XCTAssert(((vc?.mapView?.delegate)?.isKind(of: ViewController.self))!)
     }
   
-    
 }

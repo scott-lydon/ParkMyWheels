@@ -6,13 +6,7 @@ import XCTest
 @testable import SFMotorcycleParking
 
 extension SFMotorcycleParkingTests {
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        configureLocationManager()
-//        placesClient = GMSPlacesClient.shared()
-//        configureMapView()
-//        styleMap()
-//    }
+
     func testLocationManager() {
         vc?.viewDidLoad()
         XCTAssertEqual(vc?.locationManager.distanceFilter, 50)
