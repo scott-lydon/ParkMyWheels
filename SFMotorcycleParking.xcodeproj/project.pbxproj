@@ -26,12 +26,10 @@
 		752A13421F5546060011A7DF /* ConfigureMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13411F5546060011A7DF /* ConfigureMapView.swift */; };
 		752A13441F55460D0011A7DF /* StyleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13431F55460D0011A7DF /* StyleMap.swift */; };
 		752A134A1F55462D0011A7DF /* ResetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13491F55462D0011A7DF /* ResetMapView.swift */; };
-		752A134C1F5546390011A7DF /* GetNonMeteredFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A134B1F5546390011A7DF /* GetNonMeteredFrom.swift */; };
 		752A134E1F5546480011A7DF /* AlreadyHasMetered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A134D1F5546480011A7DF /* AlreadyHasMetered.swift */; };
 		752A13501F5546540011A7DF /* AlreadyHas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A134F1F5546540011A7DF /* AlreadyHas.swift */; };
 		752A13521F5546640011A7DF /* ConfigureNonMeteredMarkerFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13511F5546640011A7DF /* ConfigureNonMeteredMarkerFor.swift */; };
 		752A13541F5546800011A7DF /* GetMarkerTextFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13531F5546800011A7DF /* GetMarkerTextFor.swift */; };
-		752A13561F55468F0011A7DF /* GetMeteredFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13551F55468F0011A7DF /* GetMeteredFrom.swift */; };
 		752A13581F5546D00011A7DF /* StreetNumName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13571F5546D00011A7DF /* StreetNumName.swift */; };
 		752A135A1F55475A0011A7DF /* GetIconFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A13591F55475A0011A7DF /* GetIconFor.swift */; };
 		752A135C1F5547630011A7DF /* ConfigureMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A135B1F5547630011A7DF /* ConfigureMarker.swift */; };
@@ -77,7 +75,6 @@
 		75F2D4111F539569008CFD95 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2D4101F539569008CFD95 /* Handle.swift */; };
 		75F2D4151F539761008CFD95 /* Lat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2D4141F539761008CFD95 /* Lat.swift */; };
 		75F2D4171F539769008CFD95 /* Lon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2D4161F539769008CFD95 /* Lon.swift */; };
-		75F2D44E1F53AD39008CFD95 /* SFMotorcycleParkingTests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2D44D1F53AD39008CFD95 /* SFMotorcycleParkingTests1.swift */; };
 		81553BA72AE57691D4F7B23A /* Pods_SFMotorcycleParking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0662A292900B7F19575684 /* Pods_SFMotorcycleParking.framework */; };
 		F24FC15749416EB68121A1C8 /* Pods_SFMotorcycleParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82569E54B5061A5838A63221 /* Pods_SFMotorcycleParkingUITests.framework */; };
 /* End PBXBuildFile section */
@@ -130,12 +127,10 @@
 		752A13411F5546060011A7DF /* ConfigureMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureMapView.swift; sourceTree = "<group>"; };
 		752A13431F55460D0011A7DF /* StyleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleMap.swift; sourceTree = "<group>"; };
 		752A13491F55462D0011A7DF /* ResetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetMapView.swift; sourceTree = "<group>"; };
-		752A134B1F5546390011A7DF /* GetNonMeteredFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNonMeteredFrom.swift; sourceTree = "<group>"; };
 		752A134D1F5546480011A7DF /* AlreadyHasMetered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlreadyHasMetered.swift; sourceTree = "<group>"; };
 		752A134F1F5546540011A7DF /* AlreadyHas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlreadyHas.swift; sourceTree = "<group>"; };
 		752A13511F5546640011A7DF /* ConfigureNonMeteredMarkerFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureNonMeteredMarkerFor.swift; sourceTree = "<group>"; };
 		752A13531F5546800011A7DF /* GetMarkerTextFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMarkerTextFor.swift; sourceTree = "<group>"; };
-		752A13551F55468F0011A7DF /* GetMeteredFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMeteredFrom.swift; sourceTree = "<group>"; };
 		752A13571F5546D00011A7DF /* StreetNumName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetNumName.swift; sourceTree = "<group>"; };
 		752A13591F55475A0011A7DF /* GetIconFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIconFor.swift; sourceTree = "<group>"; };
 		752A135B1F5547630011A7DF /* ConfigureMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureMarker.swift; sourceTree = "<group>"; };
@@ -188,8 +183,6 @@
 		75F2D4141F539761008CFD95 /* Lat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lat.swift; sourceTree = "<group>"; };
 		75F2D4161F539769008CFD95 /* Lon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lon.swift; sourceTree = "<group>"; };
 		75F2D44B1F53AD39008CFD95 /* SFMotorcycleParkingTests1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFMotorcycleParkingTests1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75F2D44D1F53AD39008CFD95 /* SFMotorcycleParkingTests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMotorcycleParkingTests1.swift; sourceTree = "<group>"; };
-		75F2D44F1F53AD39008CFD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82569E54B5061A5838A63221 /* Pods_SFMotorcycleParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFMotorcycleParkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15D7A0EF5A6FFF7A30F466A /* Pods-SFMotorcycleParking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFMotorcycleParking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFMotorcycleParking/Pods-SFMotorcycleParking.debug.xcconfig"; sourceTree = "<group>"; };
 		D530D9631ED2F26C2A3CDD85 /* Pods-SFMotorcycleParkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFMotorcycleParkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFMotorcycleParkingUITests/Pods-SFMotorcycleParkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -282,12 +275,10 @@
 				752A13411F5546060011A7DF /* ConfigureMapView.swift */,
 				752A13431F55460D0011A7DF /* StyleMap.swift */,
 				752A13491F55462D0011A7DF /* ResetMapView.swift */,
-				752A134B1F5546390011A7DF /* GetNonMeteredFrom.swift */,
 				752A134D1F5546480011A7DF /* AlreadyHasMetered.swift */,
 				752A134F1F5546540011A7DF /* AlreadyHas.swift */,
 				752A13511F5546640011A7DF /* ConfigureNonMeteredMarkerFor.swift */,
 				752A13531F5546800011A7DF /* GetMarkerTextFor.swift */,
-				752A13551F55468F0011A7DF /* GetMeteredFrom.swift */,
 				752A13571F5546D00011A7DF /* StreetNumName.swift */,
 				752A13591F55475A0011A7DF /* GetIconFor.swift */,
 				752A135B1F5547630011A7DF /* ConfigureMarker.swift */,
@@ -318,7 +309,6 @@
 				7568E69E1ED3DA10001E7816 /* SFMotorcycleParking */,
 				7568E6B31ED3DA10001E7816 /* SFMotorcycleParkingTests */,
 				7568E6BE1ED3DA10001E7816 /* SFMotorcycleParkingUITests */,
-				75F2D44C1F53AD39008CFD95 /* SFMotorcycleParkingTests1 */,
 				7568E69D1ED3DA10001E7816 /* Products */,
 				15DB57519C8F0BEB362BAB27 /* Pods */,
 				00373AB36FC33992DA41DCCD /* Frameworks */,
@@ -555,15 +545,6 @@
 				75F2D4161F539769008CFD95 /* Lon.swift */,
 			);
 			name = SpotFrom;
-			sourceTree = "<group>";
-		};
-		75F2D44C1F53AD39008CFD95 /* SFMotorcycleParkingTests1 */ = {
-			isa = PBXGroup;
-			children = (
-				75F2D44D1F53AD39008CFD95 /* SFMotorcycleParkingTests1.swift */,
-				75F2D44F1F53AD39008CFD95 /* Info.plist */,
-			);
-			path = SFMotorcycleParkingTests1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -932,9 +913,7 @@
 				752A13441F55460D0011A7DF /* StyleMap.swift in Sources */,
 				752A13541F5546800011A7DF /* GetMarkerTextFor.swift in Sources */,
 				752A13581F5546D00011A7DF /* StreetNumName.swift in Sources */,
-				752A13561F55468F0011A7DF /* GetMeteredFrom.swift in Sources */,
 				752A13241F5545410011A7DF /* Metered.swift in Sources */,
-				752A134C1F5546390011A7DF /* GetNonMeteredFrom.swift in Sources */,
 				752A134E1F5546480011A7DF /* AlreadyHasMetered.swift in Sources */,
 				752A13521F5546640011A7DF /* ConfigureNonMeteredMarkerFor.swift in Sources */,
 				752A13381F5545BE0011A7DF /* GetLat.swift in Sources */,
@@ -971,7 +950,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F2D44E1F53AD39008CFD95 /* SFMotorcycleParkingTests1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
