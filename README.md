@@ -4,7 +4,7 @@ Park My Wheels, also known as SFMotorcycleParking, is an iOS app that shows SF P
 # Style
 - This app was coded with a highly modular style which I currently favor because navigating the project only requires toggling the up and down arrows. Because there are fewer distractions on a view, the code is very easy to understand.
 
-- I am 100% open to trying different ways of styling code and willing to adapt my style guide to the needs of my company. 
+- I am 100% open to trying different ways of styling code and willing to adapt and capable of adapting my style to the needs of my company. 
 
 - File structure: If functionA contains both functionB, and functionC, the convention will be: FunctionA.swift, followed by a folder: FunctionA, with contents FunctionB.swift, and FunctionC.swift. 
 
